@@ -18,6 +18,7 @@ const Header: React.FC = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
           <a href="#home" className="hover:text-gray-200 transition-colors">Início</a>
+          <a href="#library" className="hover:text-gray-200 transition-colors">Biblioteca</a>
           <a href="#products" className="hover:text-gray-200 transition-colors">Produtos</a>
           <a href="#contact" className="hover:text-gray-200 transition-colors">Contacto</a>
           <a 
@@ -45,6 +46,7 @@ const Header: React.FC = () => {
         <div className="md:hidden bg-brand-dark p-4 border-t border-white/10">
           <div className="flex flex-col gap-4">
             <a href="#home" className="block py-2 hover:bg-white/10 rounded px-2" onClick={() => setIsMenuOpen(false)}>Início</a>
+            <a href="#library" className="block py-2 hover:bg-white/10 rounded px-2" onClick={() => setIsMenuOpen(false)}>Biblioteca</a>
             <a href="#products" className="block py-2 hover:bg-white/10 rounded px-2" onClick={() => setIsMenuOpen(false)}>Produtos</a>
             <a href="#contact" className="block py-2 hover:bg-white/10 rounded px-2" onClick={() => setIsMenuOpen(false)}>Contacto</a>
             <a 
